@@ -21,7 +21,8 @@ fun main(args:Array<String>){
 ////    println("quick sort result ${result.toList()}")
 //
 //    println("gcd :189,18: ${GCD().gcd(189,18)}")
-    println(BreadthFirstSearch().find(createNode()){node -> node?.name == "lily" })
+//    println(BreadthFirstSearch().find(createNode()){node -> node?.name == "lily" })
+    DirectedGraph.test()
 }
 fun createNode(): Node {
     val lily = Node(null,"lily")
