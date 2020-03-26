@@ -22,7 +22,9 @@ fun main(args:Array<String>){
 //
 //    println("gcd :189,18: ${GCD().gcd(189,18)}")
 //    println(BreadthFirstSearch().find(createNode()){node -> node?.name == "lily" })
-    DirectedGraph.test()
+//    DirectedGraph.test()
+    println(DA().knapsack2(arrayOf(2,2,4,6,3),5,9))
+//    println(DA().knapsack(arrayOf(2,2,4,6,3),5,9))
 }
 fun createNode(): Node {
     val lily = Node(null,"lily")
